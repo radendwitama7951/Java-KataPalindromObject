@@ -57,7 +57,7 @@ public class Main {
 			 * 
 			 * 
 			 * */
-			iniPalindrom.setKata(iniPalindrom.inputKata());
+			iniPalindrom.inputKata();
 			System.out.printf("iniPalindrom.kata = ");
 			iniPalindrom.printKata();
 			System.out.println();

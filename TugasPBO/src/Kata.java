@@ -80,14 +80,12 @@ public class Kata {
 	 * meminta input dari end user melalui
 	 * console.
 	 * */
-	public String inputKata () {
-		String result;
+	public void inputKata () {
 		System.out.printf("Masukkan kata : ");
 		scan = new Scanner(System.in);
-		result = scan.nextLine();
+		setKata(scan.nextLine());		
+
 		System.out.flush();
-		
-		return result;
 	};
 	
 	
