@@ -29,9 +29,9 @@ public class Main {
 		 * adalah string "null"
 		 * 
 		 * */
-		Kata iniKataKasar = new KataKasar("Asik");
-		System.out.printf("iniPalindrom.kata = ");
-		iniKataKasar.printKata();
+		Kata iniKataKerja = new KataKerja("Asik");
+		System.out.printf("iniKataKerja.kata = ");
+		iniKataKerja.printKata();
 		System.out.println();
 
 
@@ -83,6 +83,7 @@ public class Main {
 		
 		scan.close();
 		iniPalindrom.finalize();
+		iniKataKerja.finalize();
 		System.out.printf("Terima Kasih telah mencoba :)\n");
 		
 		
